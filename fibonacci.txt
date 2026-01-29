@@ -1,0 +1,28 @@
+00400000    # Endereco inicial de codigo
+00000012    # Linhas de codigo em Hexadecimal (18 linhas)
+10010000    # Endereco inicial de dados
+00000009    # Palavras de dados reservadas (9 palavras - F0 a F8)
+
+# código
+3C081001    # lui $t0, 0x1001
+34100004    # ori $t16, $zero, 4
+34110001    # ori $t17, $zero, 1
+34090001    # ori $t9, $zero, 1
+340A0001    # ori $t10, $zero, 1
+AD090000    # sw $t1, 0($t0)
+01104020    # add $t8, $t8, $t16
+AD0A0000    # sw $t2, 0($t0)
+340B0006    # ori $t11, $zero, 6
+
+# LOOP:
+012A6020    # add $t12, $t9, $t10
+01104020    # add $t8, $t8, $s16
+AD0C0000    # sw $t4, 0($t0)
+01404820    # add $t9, $t10, $zero
+01805020    # add $t10, $t12, $zero
+01715822    # sub $t11, $t11, $17
+05600001    # bltz $t3, FIM
+08100009    # j LOOP
+
+# FIM:
+00000000

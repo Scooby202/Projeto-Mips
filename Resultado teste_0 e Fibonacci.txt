@@ -1,0 +1,129 @@
+
+
+        * Leitura do código e dos dados no arquivo teste_0.txt *
+
+
+
+
+ PC= 400000, codigo_hexa= 3C081234, * Reg * RS: $t0 : 0, RT: $t8 : 12340000, RD: $t2 : 0.
+
+ PC= 400004, codigo_hexa= 34095678, * Reg * RS: $t0 : 0, RT: $t9 : 5678, RD: $t10 : 0.
+
+ PC= 400008, codigo_hexa= 1285020, * Reg * RS: $t9 : 5678, RT: $t8 : 12340000, RD: $t10 : 12345678.
+
+
+
+
+
+        * Leitura do código e dos dados no arquivo fibonacci.txt *
+
+
+
+
+ PC= 400000, codigo_hexa= 3C081001, * Reg * RS: $t0 : 0, RT: $t8 : 10010000, RD: $t2 : 0.
+
+ PC= 400004, codigo_hexa= 34100004, * Reg * RS: $t0 : 0, RT: $t16 : 4, RD: $t0 : 0.
+
+ PC= 400008, codigo_hexa= 34110001, * Reg * RS: $t0 : 0, RT: $t17 : 1, RD: $t0 : 0.
+
+ PC= 40000C, codigo_hexa= 34090001, * Reg * RS: $t0 : 0, RT: $t9 : 1, RD: $t0 : 0.
+
+ PC= 400010, codigo_hexa= 340A0001, * Reg * RS: $t0 : 0, RT: $t10 : 1, RD: $t0 : 0.
+
+ PC= 400014, codigo_hexa= AD090000,
+ PC= 400018, codigo_hexa= 1104020, * Reg * RS: $t8 : 10010004, RT: $t16 : 4, RD: $t8 : 10010004.
+
+ PC= 40001C, codigo_hexa= AD0A0000,
+ PC= 400020, codigo_hexa= 340B0006, * Reg * RS: $t0 : 0, RT: $t11 : 6, RD: $t0 : 0.
+
+ PC= 400024, codigo_hexa= 12A6020, * Reg * RS: $t9 : 1, RT: $t10 : 1, RD: $t12 : 2.
+
+ PC= 400028, codigo_hexa= 1104020, * Reg * RS: $t8 : 10010008, RT: $t16 : 4, RD: $t8 : 10010008.
+
+ PC= 40002C, codigo_hexa= AD0C0000,
+ PC= 400030, codigo_hexa= 1404820, * Reg * RS: $t10 : 1, RT: $t0 : 0, RD: $t9 : 1.
+
+ PC= 400034, codigo_hexa= 1805020, * Reg * RS: $t12 : 2, RT: $t0 : 0, RD: $t10 : 2.
+
+ PC= 400038, codigo_hexa= 1715822, * Reg * RS: $t11 : 5, RT: $t17 : 1, RD: $t11 : 5.
+
+ PC= 40003C, codigo_hexa= 5600001,
+ PC= 400040, codigo_hexa= 8100009,
+ PC= 400024, codigo_hexa= 12A6020, * Reg * RS: $t9 : 1, RT: $t10 : 2, RD: $t12 : 3.
+
+ PC= 400028, codigo_hexa= 1104020, * Reg * RS: $t8 : 1001000C, RT: $t16 : 4, RD: $t8 : 1001000C.
+
+ PC= 40002C, codigo_hexa= AD0C0000,
+ PC= 400030, codigo_hexa= 1404820, * Reg * RS: $t10 : 2, RT: $t0 : 0, RD: $t9 : 2.
+
+ PC= 400034, codigo_hexa= 1805020, * Reg * RS: $t12 : 3, RT: $t0 : 0, RD: $t10 : 3.
+
+ PC= 400038, codigo_hexa= 1715822, * Reg * RS: $t11 : 4, RT: $t17 : 1, RD: $t11 : 4.
+
+ PC= 40003C, codigo_hexa= 5600001,
+ PC= 400040, codigo_hexa= 8100009,
+ PC= 400024, codigo_hexa= 12A6020, * Reg * RS: $t9 : 2, RT: $t10 : 3, RD: $t12 : 5.
+
+ PC= 400028, codigo_hexa= 1104020, * Reg * RS: $t8 : 10010010, RT: $t16 : 4, RD: $t8 : 10010010.
+
+ PC= 40002C, codigo_hexa= AD0C0000,
+ PC= 400030, codigo_hexa= 1404820, * Reg * RS: $t10 : 3, RT: $t0 : 0, RD: $t9 : 3.
+
+ PC= 400034, codigo_hexa= 1805020, * Reg * RS: $t12 : 5, RT: $t0 : 0, RD: $t10 : 5.
+
+ PC= 400038, codigo_hexa= 1715822, * Reg * RS: $t11 : 3, RT: $t17 : 1, RD: $t11 : 3.
+
+ PC= 40003C, codigo_hexa= 5600001,
+ PC= 400040, codigo_hexa= 8100009,
+ PC= 400024, codigo_hexa= 12A6020, * Reg * RS: $t9 : 3, RT: $t10 : 5, RD: $t12 : 8.
+
+ PC= 400028, codigo_hexa= 1104020, * Reg * RS: $t8 : 10010014, RT: $t16 : 4, RD: $t8 : 10010014.
+
+ PC= 40002C, codigo_hexa= AD0C0000,
+ PC= 400030, codigo_hexa= 1404820, * Reg * RS: $t10 : 5, RT: $t0 : 0, RD: $t9 : 5.
+
+ PC= 400034, codigo_hexa= 1805020, * Reg * RS: $t12 : 8, RT: $t0 : 0, RD: $t10 : 8.
+
+ PC= 400038, codigo_hexa= 1715822, * Reg * RS: $t11 : 2, RT: $t17 : 1, RD: $t11 : 2.
+
+ PC= 40003C, codigo_hexa= 5600001,
+ PC= 400040, codigo_hexa= 8100009,
+ PC= 400024, codigo_hexa= 12A6020, * Reg * RS: $t9 : 5, RT: $t10 : 8, RD: $t12 : D.
+
+ PC= 400028, codigo_hexa= 1104020, * Reg * RS: $t8 : 10010018, RT: $t16 : 4, RD: $t8 : 10010018.
+
+ PC= 40002C, codigo_hexa= AD0C0000,
+ PC= 400030, codigo_hexa= 1404820, * Reg * RS: $t10 : 8, RT: $t0 : 0, RD: $t9 : 8.
+
+ PC= 400034, codigo_hexa= 1805020, * Reg * RS: $t12 : D, RT: $t0 : 0, RD: $t10 : D.
+
+ PC= 400038, codigo_hexa= 1715822, * Reg * RS: $t11 : 1, RT: $t17 : 1, RD: $t11 : 1.
+
+ PC= 40003C, codigo_hexa= 5600001,
+ PC= 400040, codigo_hexa= 8100009,
+ PC= 400024, codigo_hexa= 12A6020, * Reg * RS: $t9 : 8, RT: $t10 : D, RD: $t12 : 15.
+
+ PC= 400028, codigo_hexa= 1104020, * Reg * RS: $t8 : 1001001C, RT: $t16 : 4, RD: $t8 : 1001001C.
+
+ PC= 40002C, codigo_hexa= AD0C0000,
+ PC= 400030, codigo_hexa= 1404820, * Reg * RS: $t10 : D, RT: $t0 : 0, RD: $t9 : D.
+
+ PC= 400034, codigo_hexa= 1805020, * Reg * RS: $t12 : 15, RT: $t0 : 0, RD: $t10 : 15.
+
+ PC= 400038, codigo_hexa= 1715822, * Reg * RS: $t11 : 0, RT: $t17 : 1, RD: $t11 : 0.
+
+ PC= 40003C, codigo_hexa= 5600001,
+ PC= 400040, codigo_hexa= 8100009,
+ PC= 400024, codigo_hexa= 12A6020, * Reg * RS: $t9 : D, RT: $t10 : 15, RD: $t12 : 22.
+
+ PC= 400028, codigo_hexa= 1104020, * Reg * RS: $t8 : 10010020, RT: $t16 : 4, RD: $t8 : 10010020.
+
+ PC= 40002C, codigo_hexa= AD0C0000,
+ PC= 400030, codigo_hexa= 1404820, * Reg * RS: $t10 : 15, RT: $t0 : 0, RD: $t9 : 15.
+
+ PC= 400034, codigo_hexa= 1805020, * Reg * RS: $t12 : 22, RT: $t0 : 0, RD: $t10 : 22.
+
+ PC= 400038, codigo_hexa= 1715822, * Reg * RS: $t11 : FFFFFFFF, RT: $t17 : 1, RD: $t11 : FFFFFFFF.
+
+ PC= 40003C, codigo_hexa= 5600001,
+ PC= 400044, codigo_hexa= 0, * Reg * RS: $t0 : 0, RT: $t0 : 0, RD: $t0 : 0.
